@@ -1,0 +1,27 @@
+{
+	"name": "shaderbox",
+	"version": "1.0.0",
+	"main": "src/assets/js/main.js",
+	"license": "MIT",
+	"type": "module",
+	"files": [
+		"./dist"
+	],
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"build-lib": "vite build --mode=lib",
+		"preview": "vite preview --port 8088"
+	},
+	"devDependencies": {
+		"vite": "^4.1.4",
+		"vite-plugin-ejs": "^1.6.4"
+	},
+	"description": "常用shader示例",
+	"repository": "https://github.com/cynricchiu/shaderbox.git",
+	"keywords": [
+		"shader"
+	],
+	"author": "cynric",
+	"licence": "MIT"
+}
